@@ -31,11 +31,24 @@ print(len(s)) #the number of characters the string has
     #we can iterate over a string and get any character
 for character in s:
     print(character, end=" ") #end used to create an space between each character
-print()
+print() #creates an enter effect
 
 #same print using while instead (backwards):
-i = -1 #start a counter
-while i < len(s):
+i = len(s) - 1 #start a counter (positive starts from 0, while negative from -1)
+while i >= 0:
     print(s[i], end=" ") #print the input with an end and space between it and the new one
-    i -= 1 #define how the counter increases
+    i = i - 1 #define how the counter increases
+print()
+
+#slice examples (it is a fancy index) #third number says the "steps"
+s="0123456789"
+print(s)
+print(s[2:3]) # 2
+print(s[4:6]) # 45
+print(s[:3]) # 012
+print(s[3:]) # 3456789
+print(s[1:7:2]) #135
+print(s[::-1])
+print(s[::-2])
+
 
