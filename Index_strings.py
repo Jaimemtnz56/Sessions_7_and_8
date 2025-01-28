@@ -1,3 +1,4 @@
+#index strings:
 s1 = "hello world!"
 print(s1)
 print(s1[0], s1[1], s1[2]) #print characters
