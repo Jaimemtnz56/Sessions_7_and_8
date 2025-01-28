@@ -15,5 +15,5 @@ print(s2 in s1) #True, it is inside
 print("ana" in "banana") #True, it is inside the word
 print("ANA" in "banana") #False, it is not inside the word, not capital letters
 
-print(dir("I went to see James")) # to see the different methods of a string
+
 
