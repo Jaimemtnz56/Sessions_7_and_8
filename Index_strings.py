@@ -25,3 +25,17 @@ if "":
 else:
     print("Empty string is false")
 
+#for in strings and len function
+s ="abasdfghjklnbvcxzwerty"
+print(len(s)) #the number of characters the string has
+    #we can iterate over a string and get any character
+for character in s:
+    print(character, end=" ") #end used to create an space between each character
+print()
+
+#same print using while instead (backwards):
+i = -1 #start a counter
+while i < len(s):
+    print(s[i], end=" ") #print the input with an end and space between it and the new one
+    i -= 1 #define how the counter increases
+
