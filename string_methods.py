@@ -42,3 +42,5 @@ sentence = "How, are, you? I don't like this"
 for p in punctuation:
     sentence= sentence.replace(p, "")
 print(sentence)
+
+print("I like to play hockey".title()) #Puts it as title
